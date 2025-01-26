@@ -1,0 +1,30 @@
+<!-- O <!DOCTYPE html> define que o documento é HTML5. -->
+<!DOCTYPE html>  
+<!-- A tag <html lang="pt-BR"> indica que o idioma do documento é português do Brasil. -->
+<html lang="pt-BR">
+<head>
+    <!-- A tag <title> define o título do documento, que será exibido na aba do navegador. -->
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- class="form": Define uma classe para estilização ou manipulação via JavaScript. 
+            method="get": Define que os dados do formulário serão enviados via GET.-->
+    <form class="form" action="" method="get">
+                    <!-- Os <input> são usados para coletar dados de texto: -->
+            <p>Nome: <input type="text" class="nome"></p>
+            <p>Sobrenome: <input type="text" class="sobrenome"></p>
+            <p>Peso: <input type="text" class="peso"></p>
+            <p>Altura: <input type="text" class="altura"></p>
+                <!--class="nome", class="sobrenome", class="peso", class="altura": 
+                Classes que identificam os campos para manipulação. -->
+            <button>Enviar Formulario</button>
+            <!-- O botão <button> serve para enviar o formulário. -->
+    </form>
+
+    <div class="resultado"></div>
+    <!-- s="resultado">: Um contêiner para exibir os resultados processados pelo JavaScript -->
+
+    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script>: Conecta o arquivo JavaScript ao documento HTML. -->
+</body>
+</html>
